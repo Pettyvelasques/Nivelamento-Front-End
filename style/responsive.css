@@ -1,0 +1,302 @@
+
+@media only screen and (max-width: 770px) {
+    .logotipo img{
+        max-width: 20vw;
+        width: 20vw;
+    }
+    .menu{
+        font-size: 1.6vw;
+    }
+    .logged-in{
+        max-width: 20vw;
+    }
+    .logged-in img{
+        width: 4vw;
+    }
+    .logged-in .dados{
+        width: 11vw;
+    }
+    .logged-in .dados .username{
+        font-size: 1.6vw;
+    }
+    .logged-in .dados .log-out{
+        font-size: 1.4vw;
+    }
+    .logged-out{
+        max-width: 17vw;
+        width: 17vw;
+    }
+    .logged-out img{
+        width: 4.1vw;
+    }
+    .logged-out .logar{
+        width: 12vw;
+    }
+    .logged-out .logar .log-in{
+        font-size: 2vw;
+    }
+
+    .container{
+        height: 120vh;
+    }
+    .container .btn-modal{
+        height: 110vh;
+    }
+    .container .btn-modal .box{
+        flex-wrap: wrap;
+    }
+    .container .btn-modal .box .item{
+        min-width: 25vw;
+        min-height: 25vw;
+        margin: 5vh;
+    }
+    .container .btn-modal .box .item img{
+        height: 12vh;
+        width: 12vw;
+    }
+    .rodape{
+        font-size: 1.4vw;
+        max-width: 90vw;
+        margin: 0vh 6vw 0vh 6vw;
+    }
+}
+
+@media only screen and (max-width: 550px) {
+    header{
+        justify-content: space-between;
+        max-width: 100vw;
+        margin: 6vh 8vw 6vh 8vw;
+    }
+    h2{
+        font-size: 2.5vw;
+    }
+    h3{
+        font-size: 2.3vw;
+    }
+    p{
+        font-size: 2vw;
+    }
+    .logotipo img{
+        max-width: 28vw;
+        width: 28vw;
+    }
+    .menu{
+        display: none;
+    }
+    .menu a{
+        display: none;
+    }
+    .logged-in{
+        max-width: 21vw;
+        height: 5vh;
+        justify-content: flex-end;
+    }
+    .logged-in img{
+        width: 5vw;
+    }
+    .logged-in .dados{
+        width: 10vw;
+    }
+    .logged-in .dados .username{
+        font-size: 3vw;
+        text-align: end;
+    }
+    .logged-in .dados .username span{
+        display: none;
+    }
+    .logged-in .dados .log-out{
+        font-size: 1.7vw;
+    }
+    
+    .logged-out{
+        justify-content: flex-end;
+        max-width: 21vw;
+        width: 21vw;
+        height: 5vh;
+    }
+    .logged-out img{
+        width: 5vw;
+    }
+    .logged-out .logar{
+        width: 10vw;
+        justify-content: flex-end;
+    }
+    .logged-out .logar .log-in{
+        margin-left: 1vw;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+
+    .container{
+        height: auto;
+    }
+    .container .btn-modal{
+        height: auto;
+        padding-bottom: 5vh;
+    }
+    .container .btn-modal .mensagem{
+        font-size: 2.5vw;
+    }
+    .container .btn-modal .box{
+        flex-direction: column;
+        align-items: center;
+    }
+    .container .btn-modal .box .item{
+        width: 50vw;
+        height: 50vw;
+        margin-bottom: 5vh;
+    }
+    .container .btn-modal .box .item img{
+        height: 18svh;
+        width: 22vw;
+    }
+    .container .btn-modal .box .item p{
+        font-size: 3vw;
+    }
+    .container .modal .modal-content .modal-header {
+        padding: 1vh 4vw;
+        height: 6vh;
+        max-width: 80vw;
+    }
+    .container .modal .modal-content .modal-header .close-modal{
+        font-size: 2.8vw;
+    }
+    .container #modal-eventos .modal-content .modal-body {
+        flex-direction: column;
+        max-width: 80vw;
+        height: 60vh;
+    }
+    .container #modal-eventos .modal-content .modal-body ul{
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 80vw;
+        width: 90%;
+    }
+    .container #modal-eventos .modal-content .modal-body .detalhes-evento{
+        max-width: 80vw;
+        width: 90%;
+    }
+    .container #modal-eventos .modal-content .modal-body .detalhes-evento h2{
+        align-self: center;
+        margin: 0 2vw 4vh 2vw;
+    }
+    .container #modal-usuarios .modal-content .modal-body {
+        padding: 3vh 2vw;
+        max-width: 80vw;
+        height: 60vh;
+    }
+    .container #modal-usuarios .modal-content .modal-body .detalhes-usuario{
+        max-height: auto;
+        max-width: auto;
+    }
+    .container #modal-usuarios .modal-content .modal-body .detalhes-usuario .usuario img{
+        height: 16vh;
+        width: 12vw;
+    }
+    .container #modal-usuarios .modal-content .modal-body .detalhes-usuario .usuario p{
+        height: auto;
+        width: auto;
+        font-size: 2.4vw;
+    }
+    .container #modal-relatorios .modal-content .modal-body {
+        flex-direction: column-reverse;
+        max-width: 80vw;
+        height: 60vh;
+        margin: 1vh 1vw;
+    }
+    .container #modal-relatorios .modal-content .modal-body ul{
+        justify-content: space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+        max-width: 80vw;
+        width: 90%;
+        height: 40vh;
+    }
+    .container #modal-relatorios .modal-content .modal-body ul p{
+        font-size: 1.9vw;
+    }
+    .container #modal-relatorios .modal-content .modal-body .detalhes-relatorio{
+        width: auto;
+        max-width: 100%;
+        padding: 0 0 2vh 0;
+    }
+    .container #modal-relatorios .modal-content .modal-body .detalhes-relatorio h3{
+        font-size: 3vw;
+    }
+    .container #modal-relatorios .modal-content .modal-body .detalhes-relatorio img{
+        height: 28vh;
+        width: 35vw;
+    }
+    .container #modal-relatorios .modal-content .modal-body .detalhes-relatorio p{
+        font-size: 1.5vw;
+        align-self: flex-start;
+    }
+    .rodape{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 8vh;
+        max-width: 100%;
+        margin: 0vh 8vw 0vh 8vw;
+        font-size: 30vw;
+        font-weight: 600;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .logged-in img{
+        width: 6vw;
+    }
+    .logged-in .dados{
+        width: 12vw;
+    }
+    .logged-in .dados .log-out{
+        font-size: 2vw;
+    }
+    .logged-out img{
+        width: 6vw;
+    }
+    .logged-out .logar{
+        width: 12vw;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .logged-in img{
+        width: 7vw;
+    }
+    .logged-out img{
+        width: 7vw;
+    }
+    
+}
+
+@media only screen and (max-width: 350px) {
+    .logotipo img{
+        max-width: 30vw;
+        width: 30   vw;
+    }
+    .logged-in{
+        align-items: center;
+    }
+    .logged-in img{
+        height: 7vw;
+    }
+    .logged-out{
+        align-items: center;
+    }
+    .logged-out img{
+        height: 7vw;
+    }
+    .logged-out .logar .log-in{
+        font-size: 4vw;
+    }
+    .logged-in .dados{
+        display: none;
+    }
+    .logged-in .dados-small{
+        display: flex;
+    }
+}

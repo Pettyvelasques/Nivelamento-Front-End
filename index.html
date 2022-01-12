@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/main.css">
+
+    <!-- Responsividade -->
+    <link rel="stylesheet" href="./style/responsive.css">
+    <title>QR IDEIA</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo" class="logotipo">
+            <img src="./img/logo.png" alt="logotipo da aplicação QR IDEIA">
+        </div>
+        <div class="menu">
+            <a class="item home" id="home">Home</a>
+            <a class="item eventos" id="eventos">Eventos</a>
+            <a class="item usuarios" id="usuarios">Usuários</a>
+            <a class="item relatorios" id="relatorios">Relatórios</a>
+        </div>
+        <div id="log-out" class="logged-in">
+            <img src="./img/user.png"
+                alt="imagem contendo um circulo laranja em torno de um icone branco de uma pessoa">
+            <div class="dados">
+                <div class="username">Igor<span> Gonçalves</span></div>
+                <div id="btn-log-out" class="log-out">Desconectar</div>
+            </div>
+            <div class="dados-small">
+                <div id="btn-log-out-small" class="log-out">Sair</div>
+            </div>
+        </div>
+        <div id="log-in" class="logged-out">
+            <img src="./img/user.png"
+                alt="imagem contendo um circulo laranja em torno de um icone branco de uma pessoa">
+            <div class="logar">
+                <div class="log-in">Entrar</div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="faixa-cor">
+            <div class="faixa-cor-box">
+            </div>
+        </div>
+        <div class="container">
+            <div class="btn-modal">
+                <p class="mensagem">Olá <span style="font-weight: 700;">Igor Gonçalves,</span> selecione uma das opções
+                    abaixo:</p>
+                <div class="box">
+                    <div id="btn-eventos" class="item eventos">
+                        <img src="./img/icone-eventos.png">
+                        <p>Meus Eventos</p>
+                    </div>
+                    <div id="btn-usuarios" class="item usuarios">
+                        <img src="./img/icone-usuarios.png">
+                        <p>Usuários</p>
+                    </div>
+                    <div id="btn-relatorios" class="item relatorios">
+                        <img src="./img/icone-relatorios.png">
+                        <p>Relatórios</p>
+                    </div>
+                </div>
+            </div>
+            <div id="modal-eventos" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span id="close-eventos" class="close-modal">&times;</span>
+                        <h2>Meus Eventos</h2>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <p id="evento-01">Evento 01 - 01/02/2020</p>
+                            <p id="evento-02">Evento 02 - 02/02/2020</p>
+                            <p id="evento-03">Evento 03 - 03/02/2020</p>
+                            <p id="evento-04">Evento 04 - 04/02/2020</p>
+                            <p id="evento-05">Evento 05 - 05/02/2020</p>
+                            <p id="evento-06">Evento 06 - 06/02/2020</p>
+                            <p id="evento-07">Evento 07 - 07/02/2020</p>
+                            <p id="evento-08">Evento 08 - 08/02/2020</p>
+                            <p id="evento-09">Evento 09 - 09/02/2020</p>
+                            <p id="evento-10">Evento 10 - 10/02/2020</p>
+                            <p id="evento-11">Evento 11 - 11/02/2020</p>
+                            <p id="evento-12">Evento 12 - 12/02/2020</p>
+                            <p id="evento-13">Evento 13 - 13/02/2020</p>
+                            <p id="evento-14">Evento 14 - 14/02/2020</p>
+                            <p id="evento-15">Evento 15 - 15/02/2020</p>
+                            <p id="evento-16">Evento 16 - 16/02/2020</p>
+                            <p id="evento-17">Evento 17 - 17/02/2020</p>
+                            <p id="evento-18">Evento 18 - 18/02/2020</p>
+                            <p id="evento-19">Evento 19 - 19/02/2020</p>
+                            <p id="evento-20">Evento 20 - 20/02/2020</p>
+                        </ul>
+                        <div class="detalhes-evento">
+                            <h2 class="nome-evento">Evento 01</h2>
+                            <p class="data-evento">Data: 01 / 02 / 2020</p>
+                            </br>
+                            <p class="hora-evento">Hora: 00:00 (GMT-3)</p>
+                            </br>
+                            <p class="local-evento">Local do Evento: Desconhecido
+                            </br>
+                            Av. Desconhecida, número XXX - Bloco X</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+            <div id="modal-usuarios" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span id="close-usuarios" class="close-modal">&times;</span>
+                        <h2>Usuários</h2>
+                    </div>
+                    <div class="modal-body">
+                        <div class="detalhes-usuario">
+                            <div id="user-01" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 01</p>
+                            </div>
+                            <div id="user-02" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 02</p>
+                            </div>
+                            <div id="user-03" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 03</p>
+                            </div>
+                            <div id="user-04" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 04</p>
+                            </div>
+                            <div id="user-05" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 05</p>
+                            </div>
+                            <div id="user-06" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 06</p>
+                            </div>
+                            <div id="user-07" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 07</p>
+                            </div>
+                            <div id="user-08" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 08</p>
+                            </div>
+                            <div id="user-09" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 09</p>
+                            </div>
+                            <div id="user-10" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 10</p>
+                            </div>
+                            <div id="user-11" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 11</p>
+                            </div>
+                            <div id="user-12" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 12</p>
+                            </div>
+                            <div id="user-13" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 13</p>
+                            </div>
+                            <div id="user-14" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 14</p>
+                            </div>
+                            <div id="user-15" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 15</p>
+                            </div>
+                            <div id="user-16" class="usuario">
+                                <img src="./img/icone-usuario.png">
+                                <p>Usuário 16</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+            <div id="modal-relatorios" class="modal">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <span id="close-relatorios" class="close-modal">&times;</span>
+                        <h2>Relatórios</h2>
+                    </div>
+                    <div class="modal-body">
+                        <ul>
+                            <p id="evento-01">Evento 01 - 01/02/2020</p>
+                            <p id="evento-02">Evento 02 - 02/02/2020</p>
+                            <p id="evento-03">Evento 03 - 03/02/2020</p>
+                            <p id="evento-04">Evento 04 - 04/02/2020</p>
+                            <p id="evento-05">Evento 05 - 05/02/2020</p>
+                            <p id="evento-06">Evento 06 - 06/02/2020</p>
+                            <p id="evento-07">Evento 07 - 07/02/2020</p>
+                            <p id="evento-08">Evento 08 - 08/02/2020</p>
+                            <p id="evento-09">Evento 09 - 09/02/2020</p>
+                            <p id="evento-10">Evento 10 - 10/02/2020</p>
+                            <p id="evento-11">Evento 11 - 11/02/2020</p>
+                            <p id="evento-12">Evento 12 - 12/02/2020</p>
+                            <p id="evento-13">Evento 13 - 13/02/2020</p>
+                            <p id="evento-14">Evento 14 - 14/02/2020</p>
+                            <p id="evento-15">Evento 15 - 15/02/2020</p>
+                            <p id="evento-16">Evento 16 - 16/02/2020</p>
+                            <p id="evento-17">Evento 17 - 17/02/2020</p>
+                            <p id="evento-18">Evento 18 - 18/02/2020</p>
+                            <p id="evento-19">Evento 19 - 19/02/2020</p>
+                            <p id="evento-20">Evento 20 - 20/02/2020</p>
+                        </ul>
+                        <div class="detalhes-relatorio">
+                            <h3 class="nome-evento">Relatório de Eventos</h3>
+                            <img src="./img/icone-relatorio.jpg">
+                            <p class="legenda-grafico">Evento 01 - 01/02/2020</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="rodape">
+            <p class="ideia2001">Ideia 2001</p>
+            <p class="direitos">&copy; Copyright 2019 - Todos os direitos reservados</p>
+        </div>
+    </footer>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
