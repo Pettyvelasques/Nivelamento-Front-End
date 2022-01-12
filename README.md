@@ -1,0 +1,1 @@
+Repositório de arquivos do teste de nivelamento realizado para a vaga de Front-End, cujo objetivo consiste em chegar o mais próximo possível da imagem chamada: [layout-teste.jpg](https://github.com/Pettyvelasques/Nivelamento-Front-End/blob/0d89cb3604c656316eb3b334fa9bdc51f4f468ad/layout-teste.jpg).
